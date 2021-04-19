@@ -2,5 +2,10 @@
     {
         "title":"Test Title",
         "text":"Test text"
+    },
+
+    {
+        "title":"Title2",
+        "text":"Some text"
     }
 ]

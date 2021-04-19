@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/flatly/bootstrap.min.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/public/assets/css/styles.css">
 </head>
 
 <body>
@@ -36,6 +36,35 @@
     </div>
   </div>
   <script src="/assets/js/index.js"></script>
+
+  <!-- <script>
+    const ulEl = document.querySelector('.list-group');
+
+    fetch('/api/notes', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then(res => res.json())
+      .then(data => {
+        console.log(data);
+
+        data.forEach(note => {
+          console.log(note.title);
+
+          const liEl = document.createElement("li");
+          liEl.setAttribute("class", "list-group-item");
+          liEl.textContent = (note.title);
+          ulEl.appendChild(liEl);
+
+
+        })
+      });
+
+      
+
+  </script> -->
 </body>
 
 </html>

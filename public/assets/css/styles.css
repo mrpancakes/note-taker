@@ -1,11 +1,15 @@
 html, body {
   height: 100%;
-  margin: 0;
+  width: 80%;
+  margin: auto;
   padding: 0;
 }
 
 .save-note {
   display: none;
+}
+.save-note:hover {
+  cursor: pointer;
 }
 
 .icons i {
