@@ -12,43 +12,17 @@ I used the following npm packages to built this application:
 
 ## Details
 
-When the application is run, the prompt starts by asking for the Manager's info:
-* Name
-* Email Address
-* ID
-* Office Number
-
-Next, you are prompted to choose a new employee type (Engineer or Intern) or end the process:
-
-Engineer questions:
-* Name
-* Email Address
-* ID
-* GitHub Username
-
-Intern questions:
-* Name
-* Email Address
-* ID
-* School
+* By clicking Get Started on the home screen, you're taken to the Notes page.
+* You begin by typing the note title and body. Once both fields contain text, the save icon in the top-right will appear.
+* When you save your note, it appears in the left-hand column where you can eithe click it to see the note body, or delete it.
 
 
-Once the user has completed all questions and elects to finish, an index.html file will be generated in the /dist folder.
+## Live App
 
-## How To Use
+You can view the live application [here](https://immense-reaches-36582.herokuapp.com/).
 
-Below is an overview of how to use this application:
+![Terminal Preview](./public//assets/images/application-screenshot.png)
 
-* Install inquirer, fs, and jest through the terminal by running: npm i
-* Open terminal on your desktop, cd into the directory, and run: node index.js
-* Answers the questions that are prompted in your terminal, and see that an index.html file will be generated in the /dist folder.
-
-## More Info
-
-You can watch a video demonstration of me running the app [here](https://www.youtube.com/watch?v=AFj_vAdGWks). A sample generated html can be found in the /dist folder in the repo.
-
-![Terminal Preview](./images/terminal-screenshot.png)
-![Application Preview](./images/rendered-html.png)
 
 
 
