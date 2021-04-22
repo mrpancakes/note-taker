@@ -72,3 +72,7 @@ html, body {
   padding: 20px;
   cursor: pointer;
 }
+
+h1 {
+  color: blue;
+}
