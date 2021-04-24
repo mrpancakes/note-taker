@@ -1,4 +1,4 @@
-# Note Takerg
+# Note Taker
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -21,7 +21,7 @@ I used the following npm packages to built this application:
 
 You can view the live application [here](https://immense-reaches-36582.herokuapp.com/).
 
-![Terminal Preview](./public//assets/images/application-screenshot.png)
+![Application Preview](./public//assets/images/application-screenshot.png)
 
 
 
